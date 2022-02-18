@@ -1,4 +1,4 @@
-inline-block-logo{
+.inline-block-logo{
     text-align: center;
 }
 h1{
@@ -22,6 +22,7 @@ li{
     text-align: center;
     font-size: 20px;
     vertical-align: top;
+    word-break: normal;
 }
 nav{
     font-size: 22px;
@@ -40,19 +41,13 @@ button{
     height: 40%;
     font: Playfair display;
 }
-section{
+.myWork{
     height: 600px;
     padding: 25px;
+    background-color: #FBF1F4 ;
 }
-content{
-padding: 50%;
-background-color:#FBF1F4;
-width: auto;
-
-}
-footer{
-    background-color: #D57176 ;
-    text-align: center;
+.herolmg{
+    background-color: #fbf1f4;
 }
 div{
     display: flex 33% 33% 33%;
@@ -63,4 +58,36 @@ img{
     align-content: center;
     border: grey;
     background-color: grey;
+}
+.item1{
+grid-area: myWork;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 'myArea';
+}
+
+.item2{
+    grid-area: myWork;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas: 'myArea';
+    }
+
+.item3{
+     grid-area: myWork;
+}
+
+.grid-container{
+     display: grid;
+    grid-template-areas: 'myArea';
+}
+
+.item4{
+ grid-area: myWork;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 'myArea';
 }
